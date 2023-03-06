@@ -3,8 +3,8 @@ class Student:
         self.name = name
         self.cohort = cohort
     def talk(self):
-        self.print("I can talk")
+        return "I can talk!"
     def say_favourite_language(self, fav_language):
-        self.print(f"I love {fav_language}")
+        return f"I love {fav_language}"
 
 
